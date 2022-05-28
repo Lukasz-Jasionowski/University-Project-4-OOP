@@ -16,8 +16,16 @@ namespace PO_Projekt
             b.ShowInfo();
             a.ShowInfo(); 
             Lecturer l = new Lecturer("Maciej", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
+            Lecturer ll = new Lecturer("Steven", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
             l.ShowInfo();
+            UniversityUnit universityUnit = new UniversityUnit("Gdańsk", "Stoczniowa 18");
+            universityUnit.AddLecturer(l);
+            universityUnit.DeleteLecturer(l);
+            universityUnit.ShowInfo();
+            universityUnit.AddLecturer(ll);
+            universityUnit.ShowInfo();
             */
+           
         }
     }
 }
