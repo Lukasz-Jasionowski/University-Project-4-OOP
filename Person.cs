@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PO_Projekt
 {
-    internal class Person
+    internal class Person : IInfo
     {
         protected string firstName = "";
         protected string lastName = "";
@@ -31,6 +31,11 @@ namespace PO_Projekt
             this.firstName = firstName;
             this.lastName = lastName;
             this.dateOfBirth = dateOfBirth;
+        }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine("Imię: " + firstName + "\nNazwisko: " + lastName + "\nData Urodzenia: " + dateOfBirth);
         }
     }
 }

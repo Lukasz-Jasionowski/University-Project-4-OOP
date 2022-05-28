@@ -11,9 +11,12 @@ namespace PO_Projekt
             Subject subject = new Subject("Matma", "Informatyka", "Programowanie", 3, 60);
             FinalAssessment ff = new FinalAssessment(5.0, "Styczeń", subject);
             ff.ShowInfo(); 
-            Person a = new Person("Arek", "Flimon", "Styczeń");
+            Person a = new Person("Arek", "Flimon", "Styczeń"); 
             Student b = new Student("Luki", "Jasion", "Marzec", "Informatyka", "Programowanie", 3, 2, 666); 
             b.ShowInfo();
+            a.ShowInfo(); 
+            Lecturer l = new Lecturer("Maciej", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
+            l.ShowInfo();
             */
         }
     }

@@ -48,7 +48,7 @@ namespace PO_Projekt
             this.group = group;
             this.indexNumber = indexNumber;
         }
-        public void ShowInfo()
+        public new void ShowInfo()
         {
             Console.WriteLine("Imię: " + firstName + "\nNazwisko: " + lastName + "\nData urodzenia: " +
                 dateOfBirth + "\nKierunek: " + specialization + "\nSpecjalność: " + specialty + "\nRok: " + year +
