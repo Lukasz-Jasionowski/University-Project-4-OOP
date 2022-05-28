@@ -1,0 +1,16 @@
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.AssemblyInfoInputs.cache
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.AssemblyInfo.cs
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.exe
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.deps.json
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.runtimeconfig.json
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.runtimeconfig.dev.json
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.dll
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\ref\PO-Projekt.dll
+C:\Users\IT\source\repos\PO-Projekt\bin\Debug\net5.0\PO-Projekt.pdb
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.dll
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\ref\PO-Projekt.dll
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.pdb
+C:\Users\IT\source\repos\PO-Projekt\obj\Debug\net5.0\PO-Projekt.genruntimeconfig.cache
