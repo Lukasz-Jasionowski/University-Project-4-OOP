@@ -6,10 +6,15 @@ namespace PO_Projekt
     {
         static void Main(string[] args)
         {
-            /* TEST CLASS SUBJECT I FINALASSESSMENT !!
+            /* 
+            TESTED CLASSES ETC. !!
             Subject subject = new Subject("Matma", "Informatyka", "Programowanie", 3, 60);
             FinalAssessment ff = new FinalAssessment(5.0, "Styczeń", subject);
-            ff.ShowInfo(); */
+            ff.ShowInfo(); 
+            Person a = new Person("Arek", "Flimon", "Styczeń");
+            Student b = new Student("Luki", "Jasion", "Marzec", "Informatyka", "Programowanie", 3, 2, 666); 
+            b.ShowInfo();
+            */
         }
     }
 }
