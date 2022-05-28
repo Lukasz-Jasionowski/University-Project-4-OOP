@@ -16,14 +16,20 @@ namespace PO_Projekt
             b.ShowInfo();
             a.ShowInfo(); 
             Lecturer l = new Lecturer("Maciej", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
-            Lecturer ll = new Lecturer("Steven", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
             l.ShowInfo();
-            UniversityUnit universityUnit = new UniversityUnit("Gdańsk", "Stoczniowa 18");
             universityUnit.AddLecturer(l);
             universityUnit.DeleteLecturer(l);
             universityUnit.ShowInfo();
             universityUnit.AddLecturer(ll);
             universityUnit.ShowInfo();
+            Lecturer ll = new Lecturer("Steven", "Sosnowski", "Grudzień", "Dziekan", "Doktor");
+            UniversityUnit universityUnit = new UniversityUnit("Gdańsk", "Stoczniowa 18");
+            Department department = new Department();
+            department.AddUniversityUnit("Gdańsk", "Stoczniowa");
+            department.AddLecturer(ll, "Gdynia");
+            department.AddLecturer(ll, "Gdańsk");
+            Console.WriteLine();
+            Console.WriteLine();
             */
            
         }
