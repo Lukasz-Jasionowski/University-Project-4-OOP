@@ -9,6 +9,7 @@ namespace PO_Projekt
     internal class Student : Person
     {
         List<FinalAssessment> grades = new List<FinalAssessment>();
+        List<Subject> subjects = new List<Subject>();
         private string specialization = "";
         private string specialty = "";
         private int year = 0;
@@ -56,12 +57,23 @@ namespace PO_Projekt
         }
         public void GradeInfo()
         {
-            //It will be added when the Department class is created.
+            foreach (FinalAssessment finalAssessment in grades)
+            {
+                finalAssessment.ShowInfo();
+            }
         }
         public bool AddGrade(string nameOfSubject, double grade, string date)
         {
-            return true;
-            //It will be added when the Department class is created.
+            foreach (Subject s in subjects)
+            {
+                if (s.Name.Equals(nameOfSubject))
+                {
+                    FinalAssessment f = new FinalAssessment(grade, date, s);
+                    grades.Add(f);
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
