@@ -51,6 +51,7 @@ namespace PO_Projekt
                     lecturers.Remove(l);
                     return true;
                 }
+
             }
             return false;
         }

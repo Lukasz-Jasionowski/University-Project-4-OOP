@@ -81,7 +81,7 @@ namespace PO_Projekt
                 subject.ShowInfo();
             }
         }
-        public bool AddGrade(int indexNumber, string nameOfSubject, int grade, string date)
+        public bool AddGrade(int indexNumber, string nameOfSubject, int grade, string date,Subject subject)
         {
             foreach (Subject s in subjects)
             {
@@ -89,7 +89,7 @@ namespace PO_Projekt
                 {
                     foreach (Student st in students)
                     {
-                        st.AddGrade(nameOfSubject, grade, date);
+                        st.AddGrade(nameOfSubject, grade, date,subject);
                         return true;
                     }
                 }

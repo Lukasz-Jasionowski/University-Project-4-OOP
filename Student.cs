@@ -62,18 +62,11 @@ namespace PO_Projekt
                 finalAssessment.ShowInfo();
             }
         }
-        public bool AddGrade(string nameOfSubject, double grade, string date)
+        public bool AddGrade(string nameOfSubject, double grade, string date, Subject sub)
         {
-            foreach (Subject s in subjects)
-            {
-                if (s.Name.Equals(nameOfSubject))
-                {
-                    FinalAssessment f = new FinalAssessment(grade, date, s);
-                    grades.Add(f);
-                    return true;
-                }
-            }
-            return false;
+            grades.Add(new FinalAssessment(grade, date, sub));
+            
+           return true;
         }
     }
 }
